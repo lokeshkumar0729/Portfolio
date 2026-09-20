@@ -464,7 +464,13 @@ ul {
 .hero-socials a:hover {
   color: var(--text);
 }
-
+.hero-image-frame {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.hero-image-frame img {
+  border-radius: 10px;
+}
 /* =========================================================
    ABOUT
 ========================================================= */

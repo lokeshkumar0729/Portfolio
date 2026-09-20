@@ -66,7 +66,7 @@ const Hero = () => {
         >
           <div className="hero-image-frame">
             <img
-              src="/profile/profilePic.jpeg"
+              src="/profile/profile.png"
               alt="Lokesh Kumar"
             />
 
