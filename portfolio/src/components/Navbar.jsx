@@ -58,7 +58,7 @@ const Navbar = () => {
 
         {/* Resume */}
         <a
-          href="/resume/Lokesh_Kumar_Resume.pdf"
+          href="/resume/Lokesh_Kumar_Resume_2026.pdf"
           target="_blank"
           rel="noreferrer"
           className="navbar-resume"
@@ -94,9 +94,7 @@ const Navbar = () => {
                 key={item.label}
                 href={item.href}
                 onClick={handleLinkClick}
-                className={
-                  activeSection === sectionId ? "mobile-active" : ""
-                }
+                className={activeSection === sectionId ? "mobile-active" : ""}
               >
                 <span>{item.label}</span>
                 <ArrowUpRight size={16} />
@@ -105,7 +103,7 @@ const Navbar = () => {
           })}
 
           <a
-            href="/resume/Lokesh_Kumar_Resume.pdf"
+            href="/resume/Lokesh_Kumar_Resume_2026.pdf"
             target="_blank"
             rel="noreferrer"
             onClick={handleLinkClick}

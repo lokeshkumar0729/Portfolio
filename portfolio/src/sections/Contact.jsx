@@ -36,7 +36,7 @@ const Contact = () => {
             </a>
 
             <a
-              href="/resume/Lokesh_Kumar_Resume.pdf"
+              href="/resume/Lokesh_Kumar_Resume_2026.pdf"
               target="_blank"
               rel="noreferrer"
               className="contact-resume"
