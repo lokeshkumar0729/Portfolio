@@ -384,7 +384,7 @@ ul {
 }
 
 .hero-title span {
-  display: block;
+  display: inline;
 }
 
 .hero-title .outline {
