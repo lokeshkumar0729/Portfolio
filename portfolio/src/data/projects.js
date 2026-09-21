@@ -91,7 +91,7 @@ export const projects = [
     githubUrl:
       "https://github.com/lokeshkumar0729/Work_and_Projects/tree/main/Emp_Management_System",
     liveUrl:
-      "https://employeemanagement-msntq50xk-lokesh-ce6f.vercel.app/",
+      "https://employeemanagement-kappa-three.vercel.app/",
     featured: false,
   },
 
