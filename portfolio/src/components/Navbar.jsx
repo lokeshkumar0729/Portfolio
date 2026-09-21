@@ -58,7 +58,7 @@ const Navbar = () => {
 
         {/* Resume */}
         <a
-          href="/resume/Lokesh_Kumar_Resume_2026.pdf"
+          href="/resume/Lokesh_Resume.pdf"
           target="_blank"
           rel="noreferrer"
           className="navbar-resume"
@@ -103,7 +103,7 @@ const Navbar = () => {
           })}
 
           <a
-            href="/resume/Lokesh_Kumar_Resume_2026.pdf"
+            href="/resume/Lokesh_Resume.pdf"
             target="_blank"
             rel="noreferrer"
             onClick={handleLinkClick}
