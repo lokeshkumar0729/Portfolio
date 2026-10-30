@@ -1,120 +1,47 @@
-# Lokesh Kumar — Portfolio (React)
+Lokesh Kumar — Developer Portfolio
 
-A React + Vite version of the portfolio, built from your resume. Same design,
-now split into components so it's easy to keep updating.
+Welcome to my portfolio repository! I'm Lokesh Kumar, a developer interested in building practical, responsive web applications and improving my problem-solving skills.
 
-## Run it locally
+🌐 Live Portfolio: https://portfolio-black-one-wb5ayj293d.vercel.app/
 
-```bash
-npm install
-npm run dev
-```
+Connect with me
 
-Then open the URL it prints (usually `http://localhost:5173`).
+GitHub: https://github.com/lokeshkumar0729
 
-To build a deployable version:
+LinkedIn: https://www.linkedin.com/in/lokesh-kumar0729
 
-```bash
-npm run build
-```
+LeetCode: https://leetcode.com/u/Lokesh_229/
 
-This outputs a `dist/` folder you can deploy to Vercel, Netlify, GitHub Pages,
-or any static host.
+Featured Projects
 
-## Where to edit things
+1. Flash Sale
 
-**Almost everything you'll want to change lives in one file:**
+A web application project.
 
-```
-src/data/site-data.js
-```
+Live Demo: https://flash-sale-7wx5.vercel.app/
 
-That includes:
+Source Code: https://github.com/lokeshkumar0729/flash-Sale
 
-- Your name, role, email, phone, location
-- Your resume file path (see below)
-- GitHub / LinkedIn / LeetCode links
-- The featured project (Flash Sale) — description, bullet points, stack, live
-  demo and source links
-- The other three projects — description, stack, links
-- Skills, grouped
-- Experience and education entries
-- Certifications
-- About section text and quick facts
+2. Employee Management System
 
-You very rarely need to touch the component files (`src/components/`) unless
-you want to change the *layout*, not the *content*.
+An employee management application.
 
-## Updating your resume
+Live Demo: https://emp-management-system-ten.vercel.app/
 
-1. Replace `public/Lokesh_Kumar_Resume.pdf` with your new PDF. Keep the same
-   file name, or update `resumeFile` in `src/data/site-data.js` to match.
-2. That's it — the Resume button in the nav, the hero, and the contact
-   section all read from that one `resumeFile` value.
+Source Code: https://github.com/lokeshkumar0729/emp_management_system
 
-## How the email button works
+3. DSA Practice
 
-A plain `mailto:` link only opens something if the visitor's device has a
-default mail app configured. If it doesn't, nothing visibly happens, which is
-confusing.
+A repository for practicing data structures and algorithms.
 
-To fix that, `src/hooks/useMailLink.js` does three things when "Send an
-email" is clicked:
+Source Code: https://github.com/lokeshkumar0729/DSA_Practice
 
-1. Copies your email address to the clipboard immediately.
-2. Still attempts to open the visitor's mail app via `mailto:`.
-3. If the page never loses focus (meaning no mail app took over), it shows a
-   toast confirming the address was copied, so the visitor can paste it
-   wherever they prefer to write to you.
+Portfolio
 
-To change the email address, edit `email` in `src/data/site-data.js` — every
-button and link that uses it will update automatically.
+Explore my portfolio to learn more about my work, skills, and projects:
 
-## Project structure
+https://portfolio-black-one-wb5ayj293d.vercel.app/
 
-```
-public/
-  Lokesh_Kumar_Resume.pdf   ← your resume PDF, linked from the Resume buttons
-src/
-  assets/
-    portrait.jpg             ← About section photo
-    flash-sale.jpg           ← Featured project image
-  data/
-    site-data.js              ← ALL editable content lives here
-  hooks/
-    useTheme.js                ← light/dark theme, persisted in localStorage
-    useToast.js                 ← small toast notification helper
-    useMailLink.js               ← the "Send an email" behavior described above
-  components/
-    Nav.jsx
-    Hero.jsx
-    ApiConsole.jsx              ← the interactive JWT/role demo in the hero
-    Projects.jsx
-    ProjectThumbs.jsx            ← small decorative SVGs for the project list
-    Skills.jsx
-    Experience.jsx
-    About.jsx
-    Contact.jsx
-    Toast.jsx
-    Footer.jsx
-  App.jsx
-  main.jsx
-  index.css                     ← all styling (design tokens at the top)
-index.html
-package.json
-vite.config.js
-```
+Feedback
 
-## Theme
-
-Colors and fonts are defined as CSS variables at the top of `src/index.css`
-under `:root` (light) and `:root[data-theme="dark"]` (dark). Change the
-`--accent` variable to swap the lime accent color for something else.
-
-## Notes
-
-- The Flash Sale and project thumbnail images are illustrations, not
-  screenshots of the live app. Swap `src/assets/flash-sale.jpg` for a real
-  screenshot whenever you'd like.
-- The API console in the hero is illustrative — it's a fixed demo showing
-  how role-based access would respond, not a live call to your API.
+I'm continuously learning and improving. Feel free to explore my repositories and connect with me through LinkedIn or GitHub.
