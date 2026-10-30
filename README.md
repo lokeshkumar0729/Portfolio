@@ -1,47 +1,62 @@
-Lokesh Kumar — Developer Portfolio
+<div align="center">
 
-Welcome to my portfolio repository! I'm Lokesh Kumar, a developer interested in building practical, responsive web applications and improving my problem-solving skills.
+Lokesh Kumar
 
-🌐 Live Portfolio: https://portfolio-black-one-wb5ayj293d.vercel.app/
+Software Developer | Full-Stack Development | Problem Solving
 
-Connect with me
+Building useful, user-focused applications and continuously learning new technologies.
 
-GitHub: https://github.com/lokeshkumar0729
 
-LinkedIn: https://www.linkedin.com/in/lokesh-kumar0729
 
-LeetCode: https://leetcode.com/u/Lokesh_229/
+
+
+
+</div>
+
+About
+
+I'm Lokesh Kumar, an aspiring software developer interested in creating practical web applications, writing clean code, and strengthening my problem-solving skills.
+
+This repository contains the source code for my personal portfolio. Visit the live site to explore my work and projects.
 
 Featured Projects
 
-1. Flash Sale
+Project
+
+Description
+
+Links
+
+Flash Sale
 
 A web application project.
 
-Live Demo: https://flash-sale-7wx5.vercel.app/
+Live Demo · Source Code
 
-Source Code: https://github.com/lokeshkumar0729/flash-Sale
+Employee Management System
 
-2. Employee Management System
+An application for managing employee-related information and workflows.
 
-An employee management application.
+Live Demo · Source Code
 
-Live Demo: https://emp-management-system-ten.vercel.app/
+DSA Practice
 
-Source Code: https://github.com/lokeshkumar0729/emp_management_system
+Solutions and practice work for data structures and algorithms.
 
-3. DSA Practice
+Source Code
 
-A repository for practicing data structures and algorithms.
+Find Me Online
 
-Source Code: https://github.com/lokeshkumar0729/DSA_Practice
+Portfolio: https://portfolio-black-one-wb5ayj293d.vercel.app/
 
-Portfolio
+GitHub: https://github.com/lokeshkumar0729
 
-Explore my portfolio to learn more about my work, skills, and projects:
+LinkedIn: https://www.linkedin.com/in/lokesh-kumar-0729
 
-https://portfolio-black-one-wb5ayj293d.vercel.app/
+LeetCode: https://leetcode.com/u/Lokesh_229/
 
-Feedback
+<div align="center">
 
-I'm continuously learning and improving. Feel free to explore my repositories and connect with me through LinkedIn or GitHub.
+Thanks for visiting. Feel free to explore my projects and connect with me.
+
+</div>
