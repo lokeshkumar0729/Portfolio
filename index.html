@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Lokesh Kumar | Java Full Stack Developer</title>
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="description" content="Portfolio of Lokesh Kumar, a Java full stack developer building secure Spring Boot backends and React interfaces." />
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Lokesh Kumar | Java Full Stack Developer" />
+    <meta property="og:description" content="Spring Boot, JWT and React. Two live full stack projects and 150+ LeetCode problems in Java." />
+    <meta property="og:url" content="https://lokesh-portfolio-ten-bice.vercel.app/" />
+    <meta property="og:image" content="https://lokesh-portfolio-ten-bice.vercel.app/og.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://lokesh-portfolio-ten-bice.vercel.app/og.jpg" />
+    <meta name="theme-color" content="#4f46e5" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="data:," />
+    <script>
+      // Set the theme before first paint (stored choice, else the system setting)
+      (function () {
+        var t = null;
+        try { t = localStorage.getItem('lk-theme'); } catch (e) {}
+        if (t !== 'light' && t !== 'dark') {
+          t = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+        document.documentElement.setAttribute('data-theme', t);
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
